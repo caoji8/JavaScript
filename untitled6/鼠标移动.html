@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标移动</title>
+<style>
+    .div1{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        position: absolute;
+    }
+</style>
+</head>
+<body>
+<div class="div1" id="div2">
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+</div>
+<script>
+    var div = document.getElementById("div2");
+    //如果给div设置事件则因为太小而会中断
+    //而document为整个页面偏移量的少
+    document.onmousemove = function (event) {
+        var left = event.clientX;
+        var top = event.clientY;
+        // var st = document.body.scrollTop || document.documentElement.scrollTop;
+        // var sl = document.body.scrollLeft || document.documentElement.scrollLeft;
+        // var r = Math.floor(Math.random()*256);
+        // var g = Math.floor(Math.random()*256);
+        // var b = Math.floor(Math.random()*256);
+        div.style.left = left +"px";
+        div.style.top = top +"px";
+        // div.style.backgroundColor =  "rgb("+r+','+g+','+b+")";
+        // div.style.backgroundColor = "#"+Math.floor(Math.random()*256).toString(10);
+
+    }
+</script>
+</body>
+</html>

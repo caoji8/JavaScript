@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!--<link rel="stylesheet" href="css/font-awesome.css" />-->
+    <meta charset="UTF-8">
+    <title>飞机测试</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0px;
+            background: #333;
+        }
+        #div1{
+            position: absolute;
+        }
+        i{
+            width: 50px;
+            color: white;
+            height: 50px;
+        }
+    </style>
+    <!--<link rel="stylesheet" href="../../Desktop/font-awesome-4.7.0/font-awesome.min.css">-->
+</head>
+<body>
+    <!--<i class="fa fa-camera-retro fa-5x"></i>-->
+    <i class="fa fa-space-shuttle fa-5x" id="div1"></i>
+    <!--<div id="div1"></div>-->
+    <!--<div class="icon">&#xf2b9</div>-->
+<script>
+    var div1 = document.getElementById("div1");
+    var speed = 10;
+    var dir = '';
+    document.onkeydown = function (event) {
+        if(event.ctrlKey){
+            speed = 30;
+        }else {
+            speed = 10
+        }
+        dir = event.key
+    };
+    setInterval(function (){
+        switch (dir) {
+            case "ArrowUp":
+                div1.style.top = div1.offsetTop - speed +'px';
+                break;
+            case "ArrowDown":
+                div1.style.top = div1.offsetTop + speed +'px';
+                break;
+            case "ArrowLeft":
+                div1.style.left = div1.offsetLeft - speed +'px';
+                break;
+            case "ArrowRight":
+                div1.style.left = div1.offsetLeft + speed +'px';
+                break;
+
+        }
+    },30);
+
+</script>
+</body>
+</html>

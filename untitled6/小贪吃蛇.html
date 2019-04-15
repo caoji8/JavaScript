@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小贪吃蛇随机食物生成（以面向对象思想）</title>
+    <style>
+        .map{
+            width: 1000px;
+            height: 900px;
+            background: #ccc;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="map">
+</div>
+<script>
+    //随机数
+    (function (window) {
+        function Random(){
+        }
+        Random.prototype.getRandom = function (max,min) {
+            return Math.floor(Math.random()*(max-min)+min);
+        };
+        window.Random =new Random;
+    })(window);
+    //小方块
+    (function (window) {
+    var map = document.querySelector(".map");
+    //构造小方块的函数0
+    function Food(width,height,color) {
+        this.width = width || 20; //默认值
+        this.height = height || 20;
+        this.color = color;
+        this.x = 0;
+        this.y = 0;
+        this.element = document.createElement("div");
+    }
+    //将小方块添加到div1上
+    Food.prototype.init = function (map) {
+        //设置方块样式
+        var div = this.element;
+        div.style.position ="absolute";
+        div.style.width =this.width+"px";
+        div.style.height = this.height+"px";
+        div.style.backgroundColor=this.color;
+        map.appendChild(div);
+        this.render(map);
+    };
+    //产生随机的位置
+    Food.prototype.render=function () {
+    var x = Random.getRandom(0,map.offsetWidth/this.width)*this.width;
+    console.log(map.offsetWidth);
+    console.log(this.width)
+    var y = Random.getRandom(0,map.offsetHeight/this.height)*this.height;
+    this.x = x;
+    this.y = y;
+    var div = this.element;
+    div.style.left=this.x+"px";
+    div.style.top=this.y + "px";
+    };
+    var fd = new Food(20,20,"aqua");
+    fd.init(map);
+    })(window);
+
+
+</script>
+</body>
+</html>

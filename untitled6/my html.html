@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 168px;
+            height: 200px;
+            margin: 50px auto;
+            text-align: left;
+            background-color: bisque;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            color: #ff5b65;
+            background-color: #33ffa3;
+        }
+        .biaoge{
+            margin: 10px auto;
+            height: 50px;
+            width: 550px;
+        }
+
+    </style>
+</head>
+<body>
+ <table border="6" class="biaoge" id="hello">
+     <tr>
+         <td>Tom</td>
+         <td>tom@tom.com</td>
+         <td>5000</td>
+         <td><a href="javascript:;">Delete</a></td>
+     </tr>
+     <tr>
+         <td>Jerry</td>
+         <td>jerry@sohu.com</td>
+         <td>8000</td>
+         <td><a href="deleteEmp?id=002">Delete</a></td>
+     </tr>
+     <tr>
+         <td>Bob</td>
+         <td>bob@tom.com</td>
+         <td>10000</td>
+         <td><a href="deleteEmp?id=003">Delete</a></td>
+     </tr>
+ </table>
+  <div id = "kuangjia">
+        用户名：
+        <br/>
+        <input id ="name" value=""/>
+        电子邮箱：
+        <br/>
+        <input id ="another_name"value=""/>
+        工资：
+        <br/>
+        <input id="password"value=""/>
+        <button id="btn">提交</button>
+    </div>
+
+
+ <script>
+     // var btn = document.getElementById("btn");
+     // btn.onclick=function () {
+     //     //将表格信息绑定到button按钮中
+     //     var name = document.getElementById("name").value;
+     //     var another_name = document.getElementById("another_name").value;
+     //     var passworld = document.getElementById("password").value;
+     //     //创建元素节点
+     //     var tr = document.createElement("tr");
+     //     var nametd = document.createElement("td");
+     //     var anothner_nametd = document.createElement("td");
+     //     var passwordtd = document.createElement("td");
+     //     //创建文本节点
+     //     var name_text = document.createTextNode(name);
+     //     var anothername_text = document.createTextNode(another_name);
+     //     var password_text = document.createTextNode(passworld);
+     //     //传输文本节点
+     //     nametd.appendChild(name_text);
+     //     anothner_nametd.appendChild(anothername_text);
+     //     passwordtd.appendChild(password_text);
+     //     //td节点传输至tr节点
+     //     tr.appendChild(nametd);
+     //     tr.appendChild(anothner_nametd);
+     //     tr.appendChild(passwordtd);
+     //     //统一封装到table中
+     //     var table = document.getElementById("hello");
+     //     table.appendChild(tr);
+     // };
+     // //TagName返回一个数组
+     // //     };
+     // var a = document.getElementsByTagName("a");
+     // for (i = 0;i<=a.length;i++){
+     //     a[i].onclick = function () {
+     //         var gai = this.parentNode.parentNode;
+     //         // alert(tr);
+     //         if (confirm("确认删除吗")) {
+     //             gai.parentNode.removeChild(gai);
+     //         };
+     //         return false;
+     // };
+     //     };
+     btn.onclick = function () {
+         var name = document.getElementById("name").value;
+         var another_name = document.getElementById("another_name").value;
+         var passworld = document.getElementById("password").value;
+         var tr = document.createElement("tr");
+         tr.innerHTML = "<td>"+name+"</td>"+
+             "<td>"+another_name+"</td>"+
+             "<td>"+passworld+"</td>";
+
+         var table = document.getElementById("hello");
+         var tbody = table.getElementsByTagName("tbody")[0];
+         tbody.appendChild(tr);
+     };
+ </script>
+ <!--<button id="hello">hello</button>-->
+</body>
+</html>

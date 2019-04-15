@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时调用</title>
+    <style>
+        h1{
+            font-size: 250px;
+            color: #ff6614;
+            text-align: center;
+        }
+        body{
+            /*background: #333;*/
+            background-image: linear-gradient(100deg,white,#ff5b65,darkred,black);
+            height: 640px;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            left: 45%;
+            top: 70%;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">重置</button>
+<h1 id="count"></h1>
+<script>
+    var count = document.getElementById('count');
+    var btn = document.getElementById("btn");
+    var num = 1;
+    var timer = setInterval(function () {
+        count.innerHTML = num++;
+        if (num == 100){
+            count.innerHTML = "hello world";
+            clearInterval(timer);
+        }
+    },1000)
+    btn.onclick = function () {
+        count.innerHTML = "hello world";
+        clearInterval(timer);
+    }
+
+</script>
+</body>
+</html>

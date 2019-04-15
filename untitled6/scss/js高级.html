@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js高级</title>
+</head>
+<body>
+    <button id="btn">click me</button>
+    <script>
+    // var a = 'hello';
+    // console.log(typeof a ==='string')
+    // var obj = {
+    //     arr:[1,'hello',console.log()],
+    //     fun:function () {
+    //         console.log("hey");
+    //         return function (num) {
+    //             console.log(num);
+    //             return 'return'
+    //         }
+    //     }
+    // };
+    // console.log(typeof obj.arr[2] === 'undefined');
+    // console.log(obj.fun()("ohhhhhhhhhh"))
+    // function Per(name,age,sex) {
+    //     this.name =name;
+    //     this.age = age;
+    //     this.sex = sex;
+    //     console.dir(this);
+    // //     this.sayName = function () {
+    // //         alert(this.name);
+    // // }
+    // }
+    // var Person = new Per("空我",28,"男");
+    // console.log(typeof Person.sayName());
+    // function Prerson(name,age) {
+    //     this.name = name;
+    //     this.age =age;
+    // }
+    // Prerson.prototype.eat = function () {
+    //     alert("hello");
+    // };
+    // var per = new Prerson("田所浩二",24);
+    // console.dir(Prerson);
+    // console.dir(per);
+    // (function () {
+    //     alert("hello")
+    // })()
+    //     var obj =[ x = 1,
+    //     y = 2,
+    //     z = "hello"
+    //     ]
+    //
+    //     ;
+    //     var mun = obj.length-1;
+    //     console.log(mun);
+    //     function Animals(height,width,sex) {
+    //         this.height = height;
+    //         this.width = width;
+    //         this.sex = sex;
+    //     }
+    //     //父级属性
+    //     Animals.prototype.init =function () { //父级方法
+    //         console.log("sex something");
+    //     };
+    //     function Dog(special) { //子构造函数
+    //         this.special = special;
+    //     }
+    //     Dog.prototype = new Animals(15,24,"雄性"); //改变子构造函数原型指向 为Aniamls实例对象
+    //     Dog.prototype.sleep = function () { //添加方法  实现了继承
+    //         console.log("i wan to sleep");
+    //     };
+    //     var dog = new Dog("咬人");
+    //     dog.init();
+    //     dog.sleep();
+
+ //  改变原型指向继承
+    //     function Animals(name,weight) {
+    //         this.name = name;
+    //         this.weight = weight;
+    //     }
+    //     Animals.prototype.eat = function () {
+    //         console.log("eat something")
+    //     };
+    //     function Dog(color) {
+    //       this.color = color;
+    //     }
+    //     Dog.prototype = new Animals("xiaowang",80);
+    //     Dog.prototype.attack = function () {
+    //         console.log("attack something");
+    //     };
+    //     function Huskie(sex) {
+    //         this.sex = sex;
+    //     }
+    //     Huskie.prototype = new Dog("blue",80,"xiaowang");
+    //     Huskie.prototype.happy = function () {
+    //         console.log("happy everyday");
+    //     };
+    //     var hus = new Huskie("雄性");
+    //     console.log(hus.weight);
+    //     console.log(hus.color);
+    //     hus.eat();
+    //     hus.attack();
+    //     hus.happy();
+
+
+    // function Person(name,age,sex) {
+    //     this.name = name;
+    //     this.sex = sex;
+    //     this.age = age;
+    // }
+    // Person.prototype.sleep = function () {
+    //     console.log("i want to sleep")
+    // };
+    // function Student(name,age,sex,study) {
+    //     Person.call(this,name,age,sex);
+    //     this.study = study
+    // }
+    // Student.prototype = new Person();
+    // var stu = new Student("小米",5,"男","happy");
+    // stu.sleep();
+    // console.log(stu.name);
+    //     var obj = {
+    //         age:24,
+    //         name:"decade"
+    //     };
+    //     var obj2 = {};
+    //     for (var i in obj){
+    //         obj2[i] = obj[i]
+    //     }
+    //     //拷贝继承
+    //     console.dir(obj2);
+
+        // function Person(name,sex) {
+    //     this.name = name;
+    //     this.sex = sex;
+    // }
+    // Person.prototype.sayHi = function () {
+    //     console.log(this.sex)
+    // };
+    // var per = new Person("decade","男");
+    // // per.sayHi();
+    // function Student(name,sex) {
+    //     this.name = name;
+    //     this.sex =sex;
+    // }
+    // var stu = new Student("小明","女");
+    // var stu1 = {
+    //     name:"blade",
+    //     sex:"女"
+    // };
+    // per.sayHi.apply(stu1,null)
+    // function Rondom() {
+    //     //返回一个整数
+    //     this.number = parseInt(Math.random()*10+1);
+    // }
+    // Rondom.prototype.show1 = function () {
+    //     window.setInterval(this.show2.bind(this),500);
+    //     console.log(this);
+    //     setInterval(function () {
+    //         console.log(this)
+    //     },1000)
+    // };
+    // Rondom.prototype.show2 = function () {
+    //     console.log(this.number)
+    // };
+    // var ron = new Rondom();
+    //     ron.show1()
+    // function fun(x,y) {
+    //     console.log(x+y,this)
+    // }
+    // function Person() {
+    //
+    // }
+    // Person.prototype.eat = function () {
+    //     console.log("aqua")
+    // };
+    // var per = new Person();
+    // var p = fun.bind(per,10,20);
+    // p()
+    //     function f1() {
+    //         console.log("im funtion one");
+    //         return function () {
+    //             console.log("返回值函数");
+    //         }
+    //     }
+    //     var fun = f1();
+    //     console.log(fun);
+    //     fun();
+//  function Person(a) {
+//      a()
+//  }
+// Person(function () {
+//     console.log("hello")
+// });
+
+
+
+// function File(name,size,time) {
+//     this.name = name;
+//     this.size = size;
+//     this.time = time;
+// }
+// var f1 = new File("空之境界","800MB","2007");
+// var f2 = new File("攻壳机动队","1100MB","2002");
+// var f3 = new File("教父","300MB","1988");
+// var arr = [f1,f2,f3];
+// function getType(type) {
+//         return function getSort(obj1, obj2) {
+//         if (obj1[type] > obj2[type]) {
+//             return 1;
+//         } else if (obj1[type] == obj2[type]) {
+//             return 0;
+//         } else {
+//             return -1;
+//         }
+//     };
+// }
+// var ff = getType("name");
+// arr.sort(ff);
+//
+// for (var i = 0 ;i<=arr.length-1;i++){
+//     console.log(arr[i].name+"======"+arr[i].size+"====="+arr[i].time)
+// }
+//     function getValue(){
+//         var vaule = 1;
+//         return function () {
+//             vaule++;
+//             console.log(vaule)
+//         }
+//     }
+// document.getElementById("btn").onclick = getValue()
+
+
+//     var a = 100;
+// (function(){
+//     document.getElementById("btn").onclick =function fun() {
+//         var a = 10;
+//         console.log(a);
+//     }
+//
+// }());
+// console.log(a)
+
+// var i = 0;
+// function fun() {
+//     i++;
+//     if (i<=5){
+//         fun();
+//     }
+//     console.log("hello world");
+// }
+// fun();
+    git@github.com:caoji8/JavaScript.git
+function getSum(x) {
+    if(x==1){
+        return 1;
+    }
+    return x+getSum(x-1);
+}
+console.log(getSum(100))
+
+    </script>
+</body>
+</html>

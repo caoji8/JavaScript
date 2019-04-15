@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>键盘控制div测试</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: darkturquoise;
+            position: absolute;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"></div>
+ <script>
+    var div = document.getElementById('div1');
+    document.onkeydown = function (event) {
+        var speed = 10;
+        if(event.ctrlKey){
+            speed = 60;
+        };
+       console.log(event.key);
+       switch (event.key) {
+           case "ArrowUp":
+               div.style.top = div.offsetTop - speed +'px';
+               break;
+           case "ArrowDown":
+               div.style.top = div.offsetTop + speed +'px';
+               break;
+           case "ArrowLeft":
+               div.style.left = div.offsetLeft - speed +'px';
+               break;
+           case "ArrowRight":
+               div.style.left = div.offsetLeft + speed +'px';
+               break;
+
+       }
+    };
+
+ </script>
+</body>
+</html>

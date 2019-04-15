@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        div{
+            width:100px;
+            height: 100px;
+            background-color: beige;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="div"></div>
+
+<script>
+    var div = document.getElementById("div");
+
+    document.onmousedown = function (event) {
+        var ol =event.clientX - div.offsetLeft;
+        var ot =event.clientY - div.offsetTop;
+        document.onmousemove = function(event){
+            var left = event.clientX - ol;
+            var top =  event.clientY - ot;
+            div.style.top = top+"px";
+            div.style.left = left +"px";
+            //当鼠标点击的时候 div中的offsetLeft 和 offsetTop 已经添加到clientX/Y 中了
+        };
+    }
+    div.onmouseup = function () {
+        document.onmousemove = null ;
+        document.onmouseup = null;
+    }
+</script>
+</body>
+</html>
