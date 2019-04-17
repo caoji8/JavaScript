@@ -261,13 +261,35 @@
 // console.log(getSum(100));
 
         //案例个位数累加 123 1+2+3 = 6
-        function getGe(x) {
+        // function getGe(x) {
+        //     if (x<10){
+        //         return x;
+        //     }
+        //     return x%10+getGe(parseInt(x/10)); //取证除十
+        // }
+        // console.log(getGe(123));
+        // function Person(name,age,sex) {
+        //     this.name = name;
+        //     this.age = age;
+        //     this.sex = sex;
+        // }
+        // Person.prototype.init = function () {
+        //     console.log("hello");
+        // };
+        // function Student(name,age,sex,score) {
+        //     Person.call(this,name,age,sex);
+        //     this.score =score;
+        // }
+        // Student.prototype = new Person();
+        // var stu = new Student("decade",18,"nan",20);
+        // stu.init();
+        function getEverysum(x) {
             if (x<10){
                 return x;
             }
-            return x%10+getGe(parseInt(x/10)); //取证除十
+            return  x%10+getEverysum(parseInt(x/10));  //取整每次次去掉最末尾的一个数字
         }
-        console.log(getGe(123));
+        console.log(getEverysum(1364));
     </script>
 </body>
 </html>
