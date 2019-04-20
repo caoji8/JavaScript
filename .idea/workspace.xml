@@ -1,78 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dedf1f9-6332-448d-8b8b-0d2fa9aa8727" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/.idea/untitled6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/my html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/js高级.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/scss/真贪吃蛇.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/10185760_p0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/11327175_p0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/18888905_p0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/21183418_p0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/26858514_p0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/27820546_p0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/71102285_p0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/72354485_p0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/72379562_p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/73315458_p0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/DxS84aHW0AEDWKC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/picture/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/test/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/定时调用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/小贪吃蛇.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/测试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/表单验证.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/飞机测试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled6/鼠标移动.html" afterDir="false" />
+    <list default="true" id="6dedf1f9-6332-448d-8b8b-0d2fa9aa8727" name="Default Changelist" comment="The new case">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled6/scss/js高级.html" beforeDir="false" afterPath="$PROJECT_DIR$/untitled6/scss/js高级.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,8 +16,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.svg">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -93,8 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled6/表单验证.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="476">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/untitled6/scss/js高级.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="289" column="25" lean-forward="true" selection-start-line="289" selection-start-column="25" selection-end-line="289" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -103,12 +44,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.svg" />
+        <option value="$PROJECT_DIR$/untitled6/scss/js高级.html" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="563" />
-    <option name="y" value="68" />
-    <option name="width" value="1550" />
-    <option name="height" value="838" />
+    <option name="x" value="2404" />
+    <option name="y" value="-343" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,6 +80,12 @@
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="untitled6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled6" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,6 +96,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -158,6 +122,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="js高级.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScript/untitled6/scss/js高级.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.js高级.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -168,25 +142,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555299042413</updated>
-      <workItem from="1555299046779" duration="231000" />
+      <workItem from="1555299046779" duration="10089000" />
+      <workItem from="1555394820742" duration="1233000" />
+      <workItem from="1555504758656" duration="3155000" />
+      <workItem from="1555589699004" duration="5000" />
+      <workItem from="1555658976269" duration="1592000" />
+      <workItem from="1555727625849" duration="1482000" />
+      <workItem from="1555738960943" duration="5037000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1555299394526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555299394526</updated>
+    </task>
+    <task id="LOCAL-00002" summary="The new case">
+      <created>1555319201437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555319201437</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增了递归的函数">
+      <created>1555506117676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555506117677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231000" />
+    <option name="totallyTimeSpent" value="22593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1913" y="-372" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24925816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.25070822" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -194,6 +191,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.25070822" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,18 +206,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="The new case" />
+    <MESSAGE value="新增了递归的函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了递归的函数" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/untitled6/表单验证.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="476">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled6/fonts/fontawesome-webfont.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/untitled6/scss/js高级.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="289" column="25" lean-forward="true" selection-start-line="289" selection-start-column="25" selection-end-line="289" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
