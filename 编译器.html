@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web编译器</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .main{
+            background-color: white;
+            width: 100%;
+            height: 100%;
+            display: inline-flex;
+        }
+        body{
+            height: 900px;
+            width: 100%;
+        }
+        #tex{
+            font-size: 30px;
+            height: 100%;
+            width: 50%;
+            margin: 10px;
+            padding: 5px;
+        }
+        #ifa{
+            font-size: 30px;
+            height: 100%;
+            width: 50%;
+            /*border: none;*/
+            margin: 10px;
+            border: 2px solid #9896F1;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <textarea id="tex" onkeyup="resfresh()" placeholder="Code Here...."></textarea>
+    <iframe id="ifa"></iframe>
+</div>
+<script>
+    function resfresh() {
+        //获取文本框中的value
+        var text = document.getElementById("tex").value;
+
+        // console.log(text);
+        //结束标签
+        // var text2 = test(text);
+        // if(text2){
+        //     document.getElementById("tex").value = text + text2;
+        //     console.log("我说iframe中的"+document.getElementById("tex").value)
+        // }
+        //赋值给ifame
+        document.getElementById("ifa").srcdoc = text;
+    }
+    function test(text_value) {
+        //判断是否完成前置标签的书写
+        var judge = text_value.split("");
+        if (judge[0] === "<" && judge[judge.length-1] === ">" && judge.length >= 3) {
+            //拆分<和>
+            var str =text_value.split("<").join("");
+            var str1 = str.split(">").join("");
+            var copyInput = str1.split(" ")[0];
+            var new_element = "</"+copyInput+">";
+            //返回结束标签
+            console.log("我是function"+new_element);
+            return new_element;
+        }else {
+            return false;
+        }
+    }
+</script>
+</body>
+</html>
